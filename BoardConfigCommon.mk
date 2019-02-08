@@ -193,7 +193,6 @@ VENDOR_SECURITY_PATCH := 2018-12-01
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
 # Treble
